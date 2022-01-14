@@ -37,6 +37,7 @@ app = dash.Dash(
         meta_tags=[{'name': 'viewport',
                     'content': 'width=device-width, initial_scale=1.0'}]
             )
+server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
